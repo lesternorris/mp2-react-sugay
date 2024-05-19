@@ -1,13 +1,67 @@
+/* src/index.css */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body, #root {
+  height: 100%;
 }
+
+.container {
+  color: white; /* Ensure text in Bootstrap containers is white */
+}
+
+/* Set the main content area to fill the remaining height */
+.main-content {
+  min-height: calc(100vh - 60px); /* Adjust the height based on your footer's height */
+}
+
+/* Style your footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Customize the background color */
+  color: white; /* Customize the font color */
+  text-align: center;
+  padding: 10px;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+/* Animation styles */
+@keyframes animatedBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.animated-bg {
+    animation: animatedBackground 20s linear infinite;
+    background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100%;
+}
+
+/* Dictionary.css */
+
+.img-hover-effect:hover {
+  transform: scale(1.05); /* Scale the image by 5% on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.icon-hover:hover {
+  color: #ccc; /* Change to the desired color on hover */
+}
+
