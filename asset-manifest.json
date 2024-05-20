@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sugay-mp2-wd100/static/css/main.e1eab348.css",
+    "main.js": "/sugay-mp2-wd100/static/js/main.953672c9.js",
+    "static/js/453.1d2d054a.chunk.js": "/sugay-mp2-wd100/static/js/453.1d2d054a.chunk.js",
+    "static/media/img2.jpg": "/sugay-mp2-wd100/static/media/img2.8ad487fe36b5047a24a5.jpg",
+    "static/media/img7.jpg": "/sugay-mp2-wd100/static/media/img7.b3022097c00b986d5381.jpg",
+    "static/media/img6.jpg": "/sugay-mp2-wd100/static/media/img6.bb01c4c433babb531272.jpg",
+    "static/media/img3.jpg": "/sugay-mp2-wd100/static/media/img3.c29c9b8339e33efb26ce.jpg",
+    "static/media/img5.jpg": "/sugay-mp2-wd100/static/media/img5.3165d2d654baebe6558f.jpg",
+    "static/media/img1.jpg": "/sugay-mp2-wd100/static/media/img1.4631b4f9d2fff7f5a884.jpg",
+    "index.html": "/sugay-mp2-wd100/index.html",
+    "main.e1eab348.css.map": "/sugay-mp2-wd100/static/css/main.e1eab348.css.map",
+    "main.953672c9.js.map": "/sugay-mp2-wd100/static/js/main.953672c9.js.map",
+    "453.1d2d054a.chunk.js.map": "/sugay-mp2-wd100/static/js/453.1d2d054a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1eab348.css",
+    "static/js/main.953672c9.js"
+  ]
+}
